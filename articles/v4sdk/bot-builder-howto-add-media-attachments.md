@@ -183,9 +183,9 @@ var activity = MessageFactory.Attachment(
         images: new CardImage[] { new CardImage(url: "imageUrl.png") },
         buttons: new CardAction[]
         {
-            new CardAction(title: "Shout Out Loud", type: ActionTypes.imBack, value: "You can ALL hear me!"),
-            new CardAction(title: "Much Quieter", type: ActionTypes.postBack, value: "Shh! My Bot friend hears me."),
-            new CardAction(title: "Show me how to Holler", type: ActionTypes.openURL, value: $"https://en.wikipedia.org/wiki/{cardContent.Key}")
+            new CardAction(title: "Shout Out Loud", type: ActionTypes.ImBack, value: "You can ALL hear me!"),
+            new CardAction(title: "Much Quieter", type: ActionTypes.PostBack, value: "Shh! My Bot friend hears me."),
+            new CardAction(title: "Show me how to Holler", type: ActionTypes.OpenUrl, value: $"https://en.wikipedia.org/wiki/{cardContent.Key}")
         })
     .ToAttachment());
 
